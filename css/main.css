@@ -1,0 +1,245 @@
+body { padding: 0px; } 
+
+.navbar {
+	height: 50px;
+	background-color: #9ACD32;/*yellowgreen*/
+	padding-left: 50px;
+	padding-right: 20px;
+	}
+
+.page-wrapper {
+  background-color: #b6e1fc; /*#87CEFA;lightskyblue*/
+  padding: 25px;
+}
+
+
+h1 {
+  font-family: 'Slackey', cursive;
+	font-size: 75px;
+	color: #000080; /*navy*/
+	text-shadow: 4px 3px 4px white;/*lightyellow*/
+	padding-top: 10px;
+	text-align: center;
+}
+
+h2 {
+  font-family: 'Proza Libre', sans-serif;
+	font-size: 40px;
+  color: #000080; /*navy*/
+}
+
+/* personal statement */
+h3.statement {
+  font-family: 'Proza Libre', sans-serif;
+	font-size: 20px;
+  color: #000080; /*navy*/
+  padding-top: 100px;
+	padding-right: 25px;
+}
+
+h3.statement {
+	font-size: 20px;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+h3.statement:hover {
+    font-size: 30px;
+}
+
+h4 {
+  font-family: 'Proza Libre', sans-serif;
+	font-size: 18px;
+  color: navy;
+  
+}
+
+ul {
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 14px;
+  color: #000080; /*navy*/
+}
+
+.skill-tree {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.col-sm-4 p {
+	padding-left: 10px;
+	text-align: left;
+}
+
+.space {
+	padding: 25px;
+}
+
+a {
+	color: greenyellow;
+}
+
+a:hover {
+	color: darkblue;
+}
+
+li {
+	font-family: verdana, arial, sans-serif;
+	font-size: 14px;
+}
+
+li:hover {
+	background-color: #FF7F50;/*coral*/
+}
+
+p  {
+	font-family: 'Proza Libre',verdana, arial, sans-serif;
+	font-size: 14px;
+  color: #000080; /*navy*/
+}
+
+
+.tree {
+	width:550px;
+}
+
+.bottle1 {
+	top: 350px;
+	left: 110px;
+  position: absolute;
+  z-index: 1;
+  visibility: show;
+}
+
+.bottle2 {
+	top: 350px;
+	left: 150px;
+  position: absolute;
+  z-index: 1;
+  visibility: show;
+}
+
+.bottle3 {
+	top: 400px;
+	left: 200px;
+  position: absolute;
+  z-index: 1;
+  visibility: show;
+}
+
+.bottle4 {
+	top: 400px;
+	left: 250px;
+  position: absolute;
+  z-index: 1;
+  visibility: show;
+}
+
+.bottle5 {
+	top: 420px;
+	left: 300px;
+  position: absolute;
+  z-index: 1;
+  visibility: show;
+}
+
+.bottle6 {
+	top: 400px;
+	left: 375px;
+  position: absolute;
+  z-index: 1;
+  visibility: show;
+}
+
+.bottle7 {
+	top: 430px;
+	left: 450px;
+  position: absolute;
+  z-index: 2;
+  visibility: show;
+}
+
+/* for all bottles: */
+img.bottle {
+	width: 25px;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+img.bottle:hover {
+    width: 60px;
+}
+
+
+
+.caption {
+	font-size: 18px;
+	color:#000080; /*navy*/
+	background-color: none;
+	text-align: center;
+}
+
+.table {
+	width:50%;
+	color: #000080; /*navy*/
+	margin-left: 50px;
+	text-align: left;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-color: none;
+}
+
+	.skills:hover {
+    background-color: #FF7F50;/*coral*/
+		font-size: 16px;
+		color: white;
+}
+
+tbody, th,tr,td {
+	border-top: 0px;
+	border-bottom: 0px;
+	border-color: none;
+	line-height: 2.3;
+}
+
+.table:hover {
+    background-color: #FF7F50;/*coral*/
+		font-size: 16px;
+		color: white;
+}
+
+@keyframes .frame2 {
+ 
+  transition-property: opacity;
+  transition-duration: .5s;
+}
+.frame2:hover {
+  opacity: 0.8; /* .1 blends almost entirely to background */
+  }
+
+.code-link {
+	background-color: #4CAF50; /* Green */
+	color: white;
+	font-size: 14px;
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 50px;
+} 
+
+p.contact {
+	margin-right: 300px;
+}
+
+.avatar {
+	width: 100%;
+}
+
+footer {
+	height: 50px;
+	background-color: #9ACD32;/*yellowgreen*/
+}
+
+footer p {
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 18px;
+  color: #000080; /*navy*/
+	padding-top: 5px;
+	padding-left: 10px;
+}
